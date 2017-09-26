@@ -1,0 +1,94 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: IR2_Tree - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Build : warning : failed to (or don't know how to) build 'E:\reverse top-k\Experiments\OnlyCompRSTkNN_BRkSK_Algos\TE_CIUR.cpp'
+
+Creating temporary file "C:\Users\YingLu\AppData\Local\Temp\RSPD72E.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/IR2_Tree.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\reverse top-k\Experiments\OnlyCompRSTkNN_BRkSK_Algos\addinfo.cpp"
+"E:\reverse top-k\Experiments\OnlyCompRSTkNN_BRkSK_Algos\Delete.cpp"
+"E:\reverse top-k\Experiments\OnlyCompRSTkNN_BRkSK_Algos\infoadd.cpp"
+"E:\reverse top-k\Experiments\OnlyCompRSTkNN_BRkSK_Algos\IR2_TreeDlg.cpp"
+"E:\reverse top-k\Experiments\OnlyCompRSTkNN_BRkSK_Algos\MEM_IUR_Tree.cpp"
+"E:\reverse top-k\Experiments\OnlyCompRSTkNN_BRkSK_Algos\MEM_ODE_CIUR.cpp"
+"E:\reverse top-k\Experiments\OnlyCompRSTkNN_BRkSK_Algos\ODE_TE.cpp"
+"E:\reverse top-k\Experiments\OnlyCompRSTkNN_BRkSK_Algos\query.cpp"
+"E:\reverse top-k\Experiments\OnlyCompRSTkNN_BRkSK_Algos\TE_CIUR.cpp"
+]
+Creating command line "cl.exe @C:\Users\YingLu\AppData\Local\Temp\RSPD72E.tmp" 
+Creating temporary file "C:\Users\YingLu\AppData\Local\Temp\RSPD72F.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/IR2_Tree.pdb" /debug /machine:I386 /out:"Debug/IR2_Tree.exe" /pdbtype:sept 
+".\Debug\addinfo.obj"
+".\Debug\Delete.obj"
+".\Debug\infoadd.obj"
+".\Debug\IR2_Tree.obj"
+".\Debug\IR2_TreeDlg.obj"
+".\Debug\MEM_IUR_Tree.obj"
+".\Debug\MEM_ODE_CIUR.obj"
+".\Debug\ODE_CIUR1.obj"
+".\Debug\ODE_TE.obj"
+".\Debug\query.obj"
+".\Debug\StdAfx.obj"
+".\Debug\TE_CIUR.obj"
+".\Debug\tesebutton.obj"
+".\Debug\IR2_Tree.res"
+]
+Creating command line "link.exe @C:\Users\YingLu\AppData\Local\Temp\RSPD72F.tmp"
+<h3>Output Window</h3>
+Compiling...
+addinfo.cpp
+fatal error C1083: Cannot open source file: 'E:\reverse top-k\Experiments\OnlyCompRSTkNN_BRkSK_Algos\addinfo.cpp': No such file or directory
+Delete.cpp
+fatal error C1083: Cannot open source file: 'E:\reverse top-k\Experiments\OnlyCompRSTkNN_BRkSK_Algos\Delete.cpp': No such file or directory
+infoadd.cpp
+fatal error C1083: Cannot open source file: 'E:\reverse top-k\Experiments\OnlyCompRSTkNN_BRkSK_Algos\infoadd.cpp': No such file or directory
+IR2_TreeDlg.cpp
+e:\reverse top-k\experiments\onlycomprstknn_brksk_algos\ir2_treedlg.cpp(4) : fatal error C1853: 'Debug/IR2_Tree.pch' is not a precompiled header file created with this compiler
+MEM_IUR_Tree.cpp
+fatal error C1083: Cannot open source file: 'E:\reverse top-k\Experiments\OnlyCompRSTkNN_BRkSK_Algos\MEM_IUR_Tree.cpp': No such file or directory
+MEM_ODE_CIUR.cpp
+fatal error C1083: Cannot open source file: 'E:\reverse top-k\Experiments\OnlyCompRSTkNN_BRkSK_Algos\MEM_ODE_CIUR.cpp': No such file or directory
+ODE_TE.cpp
+fatal error C1083: Cannot open source file: 'E:\reverse top-k\Experiments\OnlyCompRSTkNN_BRkSK_Algos\ODE_TE.cpp': No such file or directory
+query.cpp
+fatal error C1083: Cannot open source file: 'E:\reverse top-k\Experiments\OnlyCompRSTkNN_BRkSK_Algos\query.cpp': No such file or directory
+TE_CIUR.cpp
+fatal error C1083: Cannot open source file: 'E:\reverse top-k\Experiments\OnlyCompRSTkNN_BRkSK_Algos\TE_CIUR.cpp': No such file or directory
+Generating Code...
+Error executing cl.exe.
+Creating temporary file "C:\Users\YingLu\AppData\Local\Temp\RSP773.tmp" with contents
+[
+/nologo /o"Debug/IR2_Tree.bsc" 
+".\Debug\StdAfx.sbr"
+".\Debug\addinfo.sbr"
+".\Debug\Delete.sbr"
+".\Debug\infoadd.sbr"
+".\Debug\IR2_Tree.sbr"
+".\Debug\IR2_TreeDlg.sbr"
+".\Debug\MEM_IUR_Tree.sbr"
+".\Debug\MEM_ODE_CIUR.sbr"
+".\Debug\ODE_CIUR1.sbr"
+".\Debug\ODE_TE.sbr"
+".\Debug\query.sbr"
+".\Debug\TE_CIUR.sbr"
+".\Debug\tesebutton.sbr"]
+Creating command line "bscmake.exe @C:\Users\YingLu\AppData\Local\Temp\RSP773.tmp"
+Creating browse info file...
+BSCMAKE: error BK1506 : cannot open file '.\Debug\addinfo.sbr': No such file or directory
+Error executing bscmake.exe.
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+IR2_Tree.exe - 10 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
